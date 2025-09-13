@@ -110,3 +110,63 @@ h2 {
   width: 260px;
   text-align: center;
 }
+
+/* Quote section */
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+  text-align: center;
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+.quote-name {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: end;
+  margin-right: 130px;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.call-strong {
+  padding-bottom: 12px;
+}
+
+.call-text {
+  color: #1F2937;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: #1F2937;
+}
+
+footer p {
+  color: #E5E7EB;
+  font-size: 17px;
+}
